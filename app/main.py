@@ -184,9 +184,9 @@ class MovieRecommendationApp(QMainWindow):
         results_layout = QVBoxLayout(results_group)
         
         self.similarity_results_table = QTableWidget()
-        self.similarity_results_table.setColumnCount(5)
+        self.similarity_results_table.setColumnCount(4)
         self.similarity_results_table.setHorizontalHeaderLabels([
-            "Título", "Calificación", "Fecha", "Géneros", "Similitud"
+            "Título", "Calificación", "Fecha", "Géneros"
         ])
         self.similarity_results_table.horizontalHeader().setStretchLastSection(True)
         results_layout.addWidget(self.similarity_results_table)
@@ -234,9 +234,9 @@ class MovieRecommendationApp(QMainWindow):
         results_layout = QVBoxLayout(results_group)
         
         self.intelligent_results_table = QTableWidget()
-        self.intelligent_results_table.setColumnCount(5)
+        self.intelligent_results_table.setColumnCount(4)
         self.intelligent_results_table.setHorizontalHeaderLabels([
-            "Título", "Calificación", "Fecha", "Géneros", "Similitud"
+            "Título", "Calificación", "Fecha", "Géneros"
         ])
         self.intelligent_results_table.horizontalHeader().setStretchLastSection(True)
         results_layout.addWidget(self.intelligent_results_table)
@@ -510,14 +510,6 @@ class MovieRecommendationApp(QMainWindow):
             else:
                 genres_str = "N/A"
             table.setItem(i, 3, QTableWidgetItem(genres_str))
-            
-            # Similitud
-            if 'similarity_score' in row:
-                similarity_item = QTableWidgetItem(f"{row['similarity_score']:.3f}")
-                similarity_item.setTextAlignment(Qt.AlignCenter)
-                table.setItem(i, 4, similarity_item)
-            else:
-                table.setItem(i, 4, QTableWidgetItem("N/A"))
         
         # Ajustar ancho de columnas
         table.resizeColumnsToContents()
