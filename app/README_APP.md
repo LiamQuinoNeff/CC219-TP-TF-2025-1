@@ -85,4 +85,4 @@ La aplicación utiliza un dataset de ~10,000 películas obtenidas de la API de T
 
 ## Autores
 
-Chui, Meza, Pariona, Quino
+Rafael Chui, Rodrigo Meza, Axel Pariona & Liam Quino Neff
