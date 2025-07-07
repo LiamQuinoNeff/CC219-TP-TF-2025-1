@@ -40,7 +40,7 @@ Para más detalles sobre la construcción y atributos del dataset, véase el doc
 
 ## 📝 Licencia
 
-Este proyecto es desarrollado con fines académicos y de investigación.
+Este análisis está bajo la licencia Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0). Esto significa que eres libre de compartir y adaptar el material siempre que se atribuya adecuadamente, no se use con fines comerciales, y cualquier obra derivada se comparta bajo la misma licencia.
 
 ---
 
