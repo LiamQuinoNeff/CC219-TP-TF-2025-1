@@ -1,6 +1,6 @@
 # Sistema de Recomendación de Películas 🎬
 
-Un sistema completo de recomendación de películas que combina análisis de datos, machine learning y una interfaz gráfica moderna. Este proyecto incluye un análisis exploratorio de datos, sistema de recomendación basado en contenido, modelo predictivo de calificaciones y una aplicación de escritorio desarrollada en PyQt5.
+Un sistema completo de recomendación de películas que implementa el análisis de datos en una interfaz gráfica moderna. Este proyecto incluye un análisis exploratorio de datos, sistema de recomendación basado en contenido, modelo predictivo de calificaciones y una aplicación de escritorio desarrollada en PyQt5.
 
 ## 📋 Descripción del Proyecto
 
@@ -117,15 +117,15 @@ python build_exe.py
 
 ## 🔧 Dependencias Principales
 
-- **pandas** (2.0.3): Manipulación y análisis de datos
+- **pandas** (2.0.0): Manipulación y análisis de datos
 - **numpy** (1.24.3): Computación numérica
 - **scikit-learn** (1.3.0): Machine learning y minería de datos
-- **matplotlib** (3.7.2): Visualización de datos
+- **matplotlib** (3.7.0): Visualización de datos
 - **seaborn** (0.12.2): Visualización estadística
 - **rapidfuzz** (3.2.0): Corrección ortográfica y búsqueda difusa
-- **PyQt5** (5.15.9): Interfaz gráfica de usuario
+- **PyQt5** (5.15.0): Interfaz gráfica de usuario
 - **requests** (2.31.0): Peticiones HTTP
-- **pyinstaller** (5.13.0): Generación de ejecutables
+- **pyinstaller** (6.0.0): Generación de ejecutables
 
 ## 📈 Metodología y Análisis
 
