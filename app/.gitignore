@@ -27,9 +27,6 @@ wheels/
 # Modelos entrenados (se generan automáticamente)
 models/saved/*.pkl
 
-# Dataset local (se copia automáticamente)
-dataset_movies_api.csv
-
 # IDE
 .vscode/
 .idea/
